@@ -6,6 +6,7 @@ import FirstHead from '@/assets/images/first-head.svg';
 import SecondHead from '@/assets/images/second-head.svg';
 import ThirdHead from '@/assets/images/last-head.svg';
 import Seperator from '@/components/seperator';
+import SocialButtons from './SocialButtons';
 const HeroSection = () => {
   return (
     <div className='relative h-full flex items-center p-0'>
@@ -49,14 +50,17 @@ const HeroSection = () => {
 
           <div
             style={{ height: '80vh' }}
-            className='h-full md:w-1/4 flex space-x-4 mt-6 flex-col gap-5 items-end justify-end -mt-32 '
+            className='h-full md:w-1/4 flex md:ml-32 -mr-20 mt-6 flex-col gap-5 items-end justify-end -mt-40 pb-44'
           >
-            <button className='bg-yellow-600 text-white px-6 py-2 rounded'>
-              Telegram
-            </button>
-            <button className='bg-gray-800 text-white px-6 py-2 rounded'>
-              Join on X
-            </button>
+            <img
+              style={{
+                width: '350px!important',
+                maxWidth: '200%',
+              }}
+              className=''
+              src='https://i.ibb.co.com/2h69g1w/Frame-43.png'
+              alt=''
+            />
           </div>
         </div>
 
