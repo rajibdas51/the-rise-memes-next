@@ -30,7 +30,7 @@ const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [selectedLang, setSelectedLang] = useState<Language>(languages[0]);
   return (
-    <nav className='bg-[#1A1408] text-[#c0a060] py-0 px-4 flex items-center justify-center relative'>
+    <nav className='md:h-24 bg-[#1A1408] text-[#c0a060] py-0 px-4 flex items-center justify-center relative z-10'>
       <div className='container relative  flex items-center justify-center gap-16 w-full'>
         <div className='flex items-center justify-center space-x-6 z-10 gap-5 pr-5'>
           <a
@@ -62,10 +62,10 @@ const Navbar: React.FC = () => {
  */}
         <div className='w-30 pl-16 mx-20 '></div>
         <div
-          style={{ bottom: '-30px' }}
+          style={{ bottom: '-18px' }}
           className='absolute left-1/2 transform -translate-x-1/2 -bottom-7 '
         >
-          <div className='relative'>
+          <div className='relative '>
             <img
               src='https://i.ibb.co.com/m9MZvhM/union.png'
               alt='Logo Background'
@@ -96,7 +96,7 @@ const Navbar: React.FC = () => {
 
           <div className='relative'>
             <div
-              className='flex items-center space-x-2 hover:text-white transition-colors cursor-pointer'
+              className='flex items-center space-x-2 hover:text-white transition-colors cursor-pointer font-cinzel text-[16px] font-medium leading-[21.57px] text-transparent bg-clip-text bg-gradient-to-b from-[#FFF1DE] to-[#8C6742]'
               onClick={() => setIsOpen(!isOpen)}
             >
               <FlagIcon code={selectedLang.code} size={24} />
@@ -109,7 +109,7 @@ const Navbar: React.FC = () => {
               />
             </div>
             {isOpen && (
-              <div className='absolute right-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5'>
+              <div className='absolute right-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-50'>
                 <div
                   className='py-1'
                   role='menu'
