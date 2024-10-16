@@ -95,7 +95,7 @@ const GameFeaturesSection = () => {
                 alt='Image'
                 className='blended-image'
               />
-              <div class='overlay'></div>
+              <div className='overlay'></div>
             </div>
           </div>
         </div>
