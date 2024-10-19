@@ -94,4 +94,5 @@ body {
 width: 1440px;
 display: flex;
 justify-content: center;
+margin: auto;
 }
