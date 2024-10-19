@@ -71,7 +71,7 @@ const Navbar: React.FC = () => {
                 />
               </div>
 
-              <div className="z-100 absolute top-[-5px] left-[45px]">
+              <div className="z-100 absolute top-[-30px] left-[45px]">
                 <Image
                   src={logo}
                   alt="Rise of Memes"
