@@ -13,7 +13,8 @@ const config: Config = {
         foreground: 'var(--foreground)',
       },
       fontFamily: {
-        cinzel: ['Cinzel', 'serif'], // Add this line
+        cinzel: ['Cinzel', 'serif'], 
+        'avon-stamp': ['"Avon Stamp"', 'sans-serif'],
       },
       lineHeight: {
         custom: '21.57px', // Add custom line height

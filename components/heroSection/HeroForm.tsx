@@ -11,7 +11,7 @@ import Payment from "./Payment";
 const HeroForm = () => {
   return (
     <div
-      className="bg-cover bg-center    md:w-[46%]     xl:w-[47%]  2xl:w-[37%]  h-screen"
+      className="bg-cover bg-center    md:w-[46%]     xl:w-[47%]  2xl:w-[38%]  h-screen"
       style={{
         backgroundImage: `url(${bg.src})`,
         backgroundRepeat: "no-repeat",

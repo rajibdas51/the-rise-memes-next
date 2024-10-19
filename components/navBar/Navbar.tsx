@@ -33,138 +33,133 @@ const Navbar: React.FC = () => {
     <nav className="bg-gradient-to-r from-[#8C6742] via-[#8C6742]/50 to-[#8C6742]/30  z-50 pb-[2px]">
       <div className="h-[70px]  bg-[#1A1408] ">
         <div className="container">
-          <div className="flex justify-between items-center  gap-4 h-[70px] w-[100%]" >
+          <div className="flex justify-between items-center  gap-4 h-[70px] w-[100%]">
+            {/* ..........main part ..... */}
+            <div>
+              <div className="flex  z-20 items-center justify-between 2xl:ml-[140px] xl:ml-[40px]">
+                <a
+                  href="#"
+                  className=" pr-[50px]  font-cinzel text-[16px] font-normal  leading-[21.57px] text-transparent bg-clip-text bg-gradient-to-b from-[#FFF1DE] to-[#8C6742] hover:text-white transition-colors"
+                >
+                  GAME
+                </a>
+                <a
+                  href="#"
+                  className=" pr-[50px] font-cinzel text-[16px] font-normal leading-[21.57px] text-transparent bg-clip-text bg-gradient-to-b from-[#FFF1DE] to-[#8C6742] hover:text-white transition-colors"
+                >
+                  TOKEN INFO
+                </a>
+                <a
+                  href="#"
+                  className=" pr-[50px] font-cinzel text-[16px] font-normal leading-[21.57px] text-transparent bg-clip-text bg-gradient-to-b from-[#FFF1DE] to-[#8C6742] hover:text-white transition-colors"
+                >
+                  WHITEPAPER
+                </a>
+              </div>
+            </div>
 
             {/* ..........main part ..... */}
-      <div>
-      <div className="flex  z-20 items-center justify-between 2xl:ml-[140px] xl:ml-[40px]">
-              <a
-                href="#"
-                className=" pr-[50px]  font-cinzel text-[16px] font-normal  leading-[21.57px] text-transparent bg-clip-text bg-gradient-to-b from-[#FFF1DE] to-[#8C6742] hover:text-white transition-colors"
-              >
-                GAME
-              </a>
-              <a
-                href="#"
-                className=" pr-[50px] font-cinzel text-[16px] font-normal leading-[21.57px] text-transparent bg-clip-text bg-gradient-to-b from-[#FFF1DE] to-[#8C6742] hover:text-white transition-colors"
-              >
-                TOKEN INFO
-              </a>
-              <a
-                href="#"
-                className=" pr-[50px] font-cinzel text-[16px] font-normal leading-[21.57px] text-transparent bg-clip-text bg-gradient-to-b from-[#FFF1DE] to-[#8C6742] hover:text-white transition-colors"
-              >
-                WHITEPAPER
-              </a>
-            </div>
-      </div>
-
-                        {/* ..........main part ..... */}
             {/* ...................logo part............................*/}
-       <div>
-       <div className=" relative z-40 ">
-              <div className="">
-                <Image
-                  src={union}
-                  alt="Rise of union"
-                  className="mt-[64px]  w-[240px] "
-                />
-              </div>
-
-              <div className="z-100 absolute top-[-30px] left-[45px]">
-                <Image
-                  src={logo}
-                  alt="Rise of Memes"
-                  className=" z-10 w-[145px] h-[115px]"
-                />
-              </div> 
-            </div>
-        </div>
-            {/* ....................logo part .................. */}
-            {/* ....................last  part .................. */}
-          <div>
-          <div className="flex z-20 items-center ">
-              <a
-                href="#"
-                className="pr-[50px] font-cinzel text-[16px] font-medium leading-[21.57px] text-transparent bg-clip-text bg-gradient-to-b from-[#FFF1DE] to-[#8C6742] hover:text-white transition-colors"
-              >
-                AUDIT & KYC
-              </a>
-              <a
-                href="#"
-                className=" pr-[50px] font-cinzel text-[16px] font-medium leading-[21.57px] text-transparent bg-clip-text bg-gradient-to-b from-[#FFF1DE] to-[#8C6742] hover:text-white transition-colors"
-              >
-                FAQ
-              </a>
-
-              {/*----------- flag dropdown-------------*/}
-
-              <div className="relative ">
-                <div
-                  className="flex items-center space-x-2 hover:text-white transition-colors cursor-pointer font-cinzel text-[16px] font-medium leading-[21.57px] text-transparent bg-clip-text bg-gradient-to-b from-[#FFF1DE] to-[#8C6742]"
-                  onClick={() => setIsOpen(!isOpen)}
-                >
-                  <FlagIcon
-                    code={selectedLang.code}
-                    size={24}
-                    className="rounded-[50%] h-[22px] w-[22px]"
-                  />
-                  <span>{selectedLang.langCode}</span>
-                  <ChevronDown
-                    size={16}
-                    className={`transform transition-transform ${
-                      isOpen ? "rotate-180" : ""
-                    }`}
+            <div>
+              <div className=" relative z-40 ">
+                <div className="">
+                  <Image
+                    src={union}
+                    alt="Rise of union"
+                    className="mt-[65px]  w-[240px] "
                   />
                 </div>
-                {isOpen && (
-                  <div className="absolute right-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-50">
-                    <div
-                      className="py-1"
-                      role="menu"
-                      aria-orientation="vertical"
-                      aria-labelledby="options-menu"
-                    >
-                      {languages.map((lang) => (
-                        <button
-                          key={lang.code}
-                          className="flex items-center px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900 w-full text-left"
-                          role="menuitem"
-                          onClick={() => {
-                            setSelectedLang(lang);
-                            setIsOpen(false);
-                          }}
-                        >
-                          <FlagIcon
-                            code={lang.code}
-                            size={24}
-                            className="mr-3"
-                          />
-                          {lang.name}
-                        </button>
-                      ))}
-                    </div>
-                  </div>
-                )}
-              </div>
-              {/* Buy button*/}
 
-              <div className=" flex items-center  justify-start  cursor-pointer  h-[99px] mt-10 relative">
-                <Image
-                  src={buyBg}
-                  alt="My SVG Image"
-                  className="w-[240px] h-[120px] "
-                />
-                <p className=" uppercase absolute top-[10px] right-[98px]  z-50 bg-gradient-to-b from-[#FFF1DE] to-[#8C6742] text-transparent bg-clip-text text-[24px] ">
-                  Buy
-                </p>
+                <div className="z-100 absolute top-[-30px] left-[45px]">
+                  <Image
+                    src={logo}
+                    alt="Rise of Memes"
+                    className=" z-10 w-[145px] h-[115px]"
+                  />
+                </div>
               </div>
             </div>
-          </div>
+            {/* ....................logo part .................. */}
+            {/* ....................last  part .................. */}
+            <div>
+              <div className="flex z-20 items-center ">
+                <a
+                  href="#"
+                  className="pr-[50px] font-cinzel text-[16px] font-medium leading-[21.57px] text-transparent bg-clip-text bg-gradient-to-b from-[#FFF1DE] to-[#8C6742] hover:text-white transition-colors"
+                >
+                  AUDIT & KYC
+                </a>
+                <a
+                  href="#"
+                  className=" pr-[50px] font-cinzel text-[16px] font-medium leading-[21.57px] text-transparent bg-clip-text bg-gradient-to-b from-[#FFF1DE] to-[#8C6742] hover:text-white transition-colors"
+                >
+                  FAQ
+                </a>
 
+                {/*----------- flag dropdown-------------*/}
 
+                <div className="relative ">
+                  <div
+                    className="flex items-center space-x-2 hover:text-white transition-colors cursor-pointer font-cinzel text-[16px] font-medium leading-[21.57px] text-transparent bg-clip-text bg-gradient-to-b from-[#FFF1DE] to-[#8C6742]"
+                    onClick={() => setIsOpen(!isOpen)}
+                  >
+                    <FlagIcon
+                      code={selectedLang.code}
+                      size={24}
+                      className="rounded-[50%] h-[22px] w-[22px]"
+                    />
+                    <span>{selectedLang.langCode}</span>
+                    <ChevronDown
+                      size={16}
+                      className={`transform transition-transform ${
+                        isOpen ? "rotate-180" : ""
+                      }`}
+                    />
+                  </div>
+                  {isOpen && (
+                    <div className="absolute right-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-50">
+                      <div
+                        className="py-1"
+                        role="menu"
+                        aria-orientation="vertical"
+                        aria-labelledby="options-menu"
+                      >
+                        {languages.map((lang) => (
+                          <button
+                            key={lang.code}
+                            className="flex items-center px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900 w-full text-left"
+                            role="menuitem"
+                            onClick={() => {
+                              setSelectedLang(lang);
+                              setIsOpen(false);
+                            }}
+                          >
+                            <FlagIcon
+                              code={lang.code}
+                              size={24}
+                              className="mr-3"
+                            />
+                            {lang.name}
+                          </button>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+                </div>
+                {/* Buy button*/}
 
-
+                <div className=" flex items-center  justify-start  cursor-pointer  h-[99px] mt-10 relative">
+                  <Image
+                    src={buyBg}
+                    alt="My SVG Image"
+                    className="w-[240px] h-[120px] "
+                  />
+                  <p className=" uppercase absolute top-[10px] right-[98px]  z-50 bg-gradient-to-b from-[#FFF1DE] to-[#8C6742] text-transparent bg-clip-text text-[24px] ">
+                    Buy
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

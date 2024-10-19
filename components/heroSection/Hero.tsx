@@ -27,6 +27,10 @@ const HeroSection = () => {
             />
             <Image src={SecondHead} alt="second heading"   className="pb-5"/>
             <Image src={ThirdHead} alt="second heading" />
+
+            {/* <div className=" text-[100px] avon-stamp uppercase" >
+ Build your empike in the world of crypto legends
+</div>  */}
           </div>
 
           <SocialButton></SocialButton>
