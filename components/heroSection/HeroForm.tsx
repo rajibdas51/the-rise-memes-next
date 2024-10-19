@@ -11,14 +11,14 @@ import Payment from "./Payment";
 const HeroForm = () => {
   return (
     <div
-      className="bg-cover bg-center w-[37%] h-screen"
+      className="bg-cover bg-center    md:w-[46%]     xl:w-[47%]  2xl:w-[37%]  h-screen"
       style={{
         backgroundImage: `url(${bg.src})`,
         backgroundRepeat: "no-repeat",
       }}
     >
       <div className="flex justify-center px-4">
-        <div className="pt-[140px] pb-[35px]">
+        <div className=" pt-[90px]  2xl:pt-[130px] pb-[35px]">
           <div className="flex flex-col w-[100%]">
             <h3
               className="font-cinzel text-[30px] leading-[40.44px] text-center px-3 bg-gradient-to-b from-[#FFF1DE] to-[#8C6742] text-transparent bg-clip-text pb-[7px]"

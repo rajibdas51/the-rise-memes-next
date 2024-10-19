@@ -18,8 +18,8 @@ const HeroSection = () => {
       }}
     >
       <div className="container  flex flex-col lg:flex-row items-center justify-between  ">
-        <div className="flex ">
-          <div className=" mt-[-40px]">
+        <div className="flex">
+          <div className=" mt-[-30px]">
             <Image
               src={FirstHead}
               alt="second heading"
