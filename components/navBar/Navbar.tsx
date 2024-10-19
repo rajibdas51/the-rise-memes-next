@@ -30,28 +30,28 @@ const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [selectedLang, setSelectedLang] = useState<Language>(languages[0]);
   return (
-    <nav className="bg-gradient-to-r from-[#8C6742] via-[#8C6742]/50 to-[#8C6742]/30  z-50 pb-[2px]">
+    <nav className="bg-gradient-to-r from-[#8C6742] via-[#8C6742]/50 to-[#8C6742]/30  z-50 pb-[1px]">
       <div className="h-[70px]  bg-[#1A1408] ">
         <div className="container">
           <div className="flex justify-between items-center  gap-4 h-[70px] w-[100%]">
             {/* ..........main part ..... */}
             <div>
-              <div className="flex  z-20 items-center justify-between 2xl:ml-[140px] xl:ml-[40px]">
+              <div className="flex  z-20 items-center justify-between 2xl:ml-[80px] xl:ml-[40px]">
                 <a
                   href="#"
-                  className=" pr-[50px]  font-cinzel text-[16px] font-normal  leading-[21.57px] text-transparent bg-clip-text bg-gradient-to-b from-[#FFF1DE] to-[#8C6742] hover:text-white transition-colors"
+                  className=" pr-[35px]  font-cinzel tracking-[1.3px]  text-[17px] font-regular  leading-[21.57px] text-transparent bg-clip-text bg-gradient-to-b from-[#FFF1DE] to-[#8C6742] hover:text-white "
                 >
                   GAME
                 </a>
                 <a
                   href="#"
-                  className=" pr-[50px] font-cinzel text-[16px] font-normal leading-[21.57px] text-transparent bg-clip-text bg-gradient-to-b from-[#FFF1DE] to-[#8C6742] hover:text-white transition-colors"
+                  className=" pr-[35px] font-cinzel tracking-[1.3px]  text-[17px]  font-normal leading-[21.57px] text-transparent bg-clip-text bg-gradient-to-b from-[#FFF1DE] to-[#8C6742] hover:text-white transition-colors"
                 >
                   TOKEN INFO
                 </a>
                 <a
                   href="#"
-                  className=" pr-[50px] font-cinzel text-[16px] font-normal leading-[21.57px] text-transparent bg-clip-text bg-gradient-to-b from-[#FFF1DE] to-[#8C6742] hover:text-white transition-colors"
+                  className=" pr-[35px] font-cinzel tracking-[1.3px]  text-[17px]  font-normal leading-[21.57px] text-transparent bg-clip-text bg-gradient-to-b from-[#FFF1DE] to-[#8C6742] hover:text-white transition-colors"
                 >
                   WHITEPAPER
                 </a>
@@ -61,22 +61,21 @@ const Navbar: React.FC = () => {
             {/* ..........main part ..... */}
             {/* ...................logo part............................*/}
             <div>
-              <div className=" relative z-40 ">
-                <div className="">
+              <div className=" relative  ">
+                <div className="-z-10">
                   <Image
                     src={union}
                     alt="Rise of union"
                     className="mt-[65px]  w-[240px] "
                   />
                 </div>
-
-                <div className="z-100 absolute top-[-30px] left-[45px]">
+                <div className=" absolute top-[-30px] left-[37px]">
                   <Image
                     src={logo}
                     alt="Rise of Memes"
-                    className=" z-10 w-[145px] h-[115px]"
+                    className=" z-10 w-[160px] h-[115px]"
                   />
-                </div>
+                </div> 
               </div>
             </div>
             {/* ....................logo part .................. */}
@@ -85,22 +84,22 @@ const Navbar: React.FC = () => {
               <div className="flex z-20 items-center ">
                 <a
                   href="#"
-                  className="pr-[50px] font-cinzel text-[16px] font-medium leading-[21.57px] text-transparent bg-clip-text bg-gradient-to-b from-[#FFF1DE] to-[#8C6742] hover:text-white transition-colors"
+                  className="pr-[35px] font-cinzel tracking-[1.3px]  text-[17px]  font-medium leading-[21.57px] text-transparent bg-clip-text bg-gradient-to-b from-[#FFF1DE] to-[#8C6742] hover:text-white transition-colors"
                 >
                   AUDIT & KYC
                 </a>
                 <a
                   href="#"
-                  className=" pr-[50px] font-cinzel text-[16px] font-medium leading-[21.57px] text-transparent bg-clip-text bg-gradient-to-b from-[#FFF1DE] to-[#8C6742] hover:text-white transition-colors"
+                  className=" pr-[35px] font-cinzel tracking-[1.3px]  text-[17px]   font-medium leading-[21.57px] text-transparent bg-clip-text bg-gradient-to-b from-[#FFF1DE] to-[#8C6742] hover:text-white transition-colors"
                 >
                   FAQ
                 </a>
 
                 {/*----------- flag dropdown-------------*/}
 
-                <div className="relative ">
+                <div className="relative">
                   <div
-                    className="flex items-center space-x-2 hover:text-white transition-colors cursor-pointer font-cinzel text-[16px] font-medium leading-[21.57px] text-transparent bg-clip-text bg-gradient-to-b from-[#FFF1DE] to-[#8C6742]"
+                    className="flex items-center space-x-2 hover:text-white transition-colors cursor-pointer font-cinzel tracking-[1.3px]  text-[17px]   font-regular leading-[21.57px] text-transparent bg-clip-text bg-gradient-to-b from-[#FFF1DE] to-[#8C6742]"
                     onClick={() => setIsOpen(!isOpen)}
                   >
                     <FlagIcon
@@ -148,7 +147,7 @@ const Navbar: React.FC = () => {
                 </div>
                 {/* Buy button*/}
 
-                <div className=" flex items-center  justify-start  cursor-pointer  h-[99px] mt-10 relative">
+                <div className=" flex items-center  justify-start  cursor-pointer  h-[99px] mt-10 relative mr-[30px]">
                   <Image
                     src={buyBg}
                     alt="My SVG Image"

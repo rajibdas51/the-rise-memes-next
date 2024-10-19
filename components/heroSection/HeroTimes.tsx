@@ -4,7 +4,7 @@ import React from "react";
 const HeroTimes = () => {
     return (
 <div>
-<div className="flex justify-center gap-8">
+<div className="flex justify-center gap-4">
               <div className="text-center">
                 <p
                   className="bg-gradient-to-b from-[#FFF1DE] to-[#8C6742] text-transparent bg-clip-text text-[16px] font-[400] leading-[21.57px] pb-1 "

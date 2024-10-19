@@ -3,7 +3,7 @@ import React from "react";
 const Payment = () => {
   return (
     <div>
-      <div className="flex gap-6   py-4  justify-center ">
+      <div className="flex gap-2   py-4  justify-center ">
         <button
           className="   border border-[#E1C790] rounded-none w-[75px] h-[38px]"
           style={{

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'AVON';
+    src: local('AVON Stamp'), local('AVON-Stamp'),
+        url('AVONStamp.woff2') format('woff2'),
+        url('AVONStamp.woff') format('woff'),
+        url('AVONStamp.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }

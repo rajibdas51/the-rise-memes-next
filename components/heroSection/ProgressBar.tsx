@@ -5,7 +5,7 @@ const ProgressBar = () => {
         <div>
             
             <div className="flex justify-center mt-1 ">
-              <div className="w-[100%] ">
+              <div className="w-[88%] ">
                 <div className="">
                   <div
                     className="w-[115%] h-3 bg-gradient-to-b from-[#230203] to-[#430109] pt-[3px] "

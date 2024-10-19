@@ -11,14 +11,14 @@ import Payment from "./Payment";
 const HeroForm = () => {
   return (
     <div
-      className="bg-cover bg-center    md:w-[46%]     xl:w-[47%]  2xl:w-[38%]  h-screen"
+      className="bg-cover bg-center   h-full"
       style={{
         backgroundImage: `url(${bg.src})`,
         backgroundRepeat: "no-repeat",
       }}
     >
-      <div className="flex justify-center px-4">
-        <div className=" pt-[90px]  2xl:pt-[130px] pb-[35px]">
+      <div className="flex justify-center px-10">
+        <div className=" pt-[90px] ">
           <div className="flex flex-col w-[100%]">
             <h3
               className="font-cinzel text-[30px] leading-[40.44px] text-center px-3 bg-gradient-to-b from-[#FFF1DE] to-[#8C6742] text-transparent bg-clip-text pb-[7px]"
@@ -140,7 +140,7 @@ const HeroForm = () => {
             <Payment></Payment>
             {/* ETH Input Field */}
             <div className="flex justify-center">
-              <div className="mt-6 w-[100%]">
+              <div className="mt-6 w-[88%]">
                 <p className="bg-gradient-to-b from-[#FFF1DE] to-[#8C6742] text-transparent bg-clip-text  font-cinzel text-[16px] leading-[21.57px] font-[400]  ">
                   PAY WITH ETH
                 </p>
@@ -155,7 +155,7 @@ const HeroForm = () => {
               </div>
             </div>
             <div className="flex justify-center">
-              <div className="mt-4 w-[100%]">
+              <div className="mt-4 w-[88%]">
                 <label className="bg-gradient-to-b from-[#FFF1DE] to-[#8C6742] text-transparent bg-clip-text  font-cinzel text-[16px] leading-[21.57px] font-[400]">
                   $SRISE YOU RECEIVE
                 </label>
@@ -172,17 +172,17 @@ const HeroForm = () => {
               <Image
                 src={bigBuyButton}
                 alt="second heading"
-                className=" w-[100%]"
+                className=" w-[88%]"
               />
 
               <div className="absolute top-[15px] left-44   ">
-                <p className="font-cinzel  bg-gradient-to-b from-[#FFF1DE] to-[#8C6742] text-transparent bg-clip-text  font-cinzel text-[18px] leading-[21.57px] font-[400]  uppercase">
+                <p className="font-cinzel  bg-gradient-to-b from-[#FFF1DE] to-[#8C6742] text-transparent bg-clip-text  text-[18px] leading-[21.57px] font-[400]  uppercase">
                   Buy
                 </p>
               </div>
             </div>
 
-            <div className="underline  decoration-[#8C6742] text-center text-xs pt-2 mt-4">
+            <div className="underline  decoration-[#8C6742] text-center text-xs pt-2 mt-4 mb-[37px]">
               <a
                 href=""
                 className="bg-gradient-to-b from-[#FFF1DE] to-[#8C6742] text-transparent bg-clip-text  font-cinzel text-[14px] leading-[18.87px] font-[400]  "

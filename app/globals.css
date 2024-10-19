@@ -15,12 +15,23 @@
     --foreground: #ededed;
   }
 }
+@font-face {
+  font-family: 'AVON';
+  src: local('AVON Stamp'), local('AVON-Stamp'),
+       url('/fonts/AVONStamp.woff2') format('woff2'),
+       url('/fonts/AVONStamp.woff') format('woff'),
+       url('/fonts/AVONStamp.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 body {
   color: var(--foreground);
   background: var(--background);
   /* font-family: Arial, cinzel, sans-serif; */
-  background:#fff
+  font-family: 'AVON';
+  background:#fff,
 }
 
 @layer utilities {
@@ -97,3 +108,4 @@ display: flex;
 justify-content: center;
 margin: auto;
 }
+
