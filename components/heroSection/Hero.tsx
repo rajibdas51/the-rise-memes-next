@@ -36,14 +36,7 @@ const HeroSection = () => {
 <p className=" text-[64px]  uppercase bg-gradient-to-b from-[#E4D9BD] to-[#AA8246] text-transparent bg-clip-text font-regular mt-[-25px]"  style={{fontFamily:'AVON'}}> crypto legends</p>
 </div> 
 
-<div className="relative text-[64px] font-regular uppercase" style={{ fontFamily: 'AVON' }}>
-  <p className="text-transparent bg-gradient-to-b from-[#FFF1DE] to-[#8C6742] bg-clip-text">
-    Build your empire
-  </p>
-  <p className="absolute top-0 left-0 w-full h-full text-black" style={{ textShadow: "2px 2px 4px rgba(35, 2, 3, 0.5)" }}>
-    Build your empire
-  </p>
-</div>
+
 
           </div>
 
