@@ -31,7 +31,7 @@ const Navbar: React.FC = () => {
   const [selectedLang, setSelectedLang] = useState<Language>(languages[0]);
   return (
     <nav className="bg-gradient-to-r from-[#8C6742] via-[#8C6742]/50 to-[#8C6742]/30  z-50 pb-[1px]">
-      <div className="h-[70px]  bg-[#1A1408] ">
+      <div className=" bg-[#1A1408] ">
         <div className="container">
           <div className="flex justify-between items-center  gap-4 h-[70px] w-[100%]">
             {/* ..........main part ..... */}
