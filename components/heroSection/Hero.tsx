@@ -31,24 +31,99 @@ const HeroSection = () => {
 
             {/* textShadow: "0px  2px 4px rgba(35, 2, 3, 0.5)" */}
             <div className="">
-              <p
-                className=" text-[64px]  uppercase bg-gradient-to-b from-[#E4D9BD] to-[#AA8246] text-transparent  bg-clip-text font-regular"
-                // style={{ fontFamily: "AVON" }}
-              >
-                Build your empire{" "}
-              </p>
-              <p
-                className=" text-[64px]  uppercase bg-gradient-to-b from-[#E4D9BD] to-[#AA8246] text-transparent bg-clip-text font-regular mt-[-25px]"
-                style={{ fontFamily: "AVON" }}
-              >
-                in the world of{" "}
-              </p>
-              <p
-                className=" text-[64px]  uppercase bg-gradient-to-b from-[#E4D9BD] to-[#AA8246] text-transparent bg-clip-text font-regular mt-[-25px]"
-                style={{ fontFamily: "AVON" }}
-              >
-                crypto legends
-              </p>
+
+
+            <div className="relative">
+  <p
+    className="absolute top-0 left-0 text-[64px] uppercase font-regular text-[#472B03] blur-[4px] opacity-540"
+    style={{
+      fontFamily: "AVON",
+      zIndex: 0,
+    }}
+  >
+    Build your empire
+  </p>
+  <p
+    className="relative text-[64px] uppercase font-regular"
+    style={{
+      fontFamily: "AVON",
+      background: "linear-gradient(to bottom, #E4D9BD, #AA8246)",
+      WebkitBackgroundClip: "text",
+      WebkitTextFillColor: "transparent",
+      zIndex: 1,
+    }}
+  >
+    Build your empire
+  </p>
+</div>
+
+
+
+
+
+
+<div className="relative">
+  <p
+    className="absolute top-0 left-0 text-[64px] uppercase font-regular text-[#472B03] blur-[4px] opacity-540 leading-[50px]"
+    style={{
+      fontFamily: "AVON",
+      zIndex: 0,
+    }}
+  >
+ in the world of
+  </p>
+  <p
+    className="relative text-[64px] uppercase font-regular leading-[50px]"
+    style={{
+      fontFamily: "AVON",
+      background: "linear-gradient(to bottom, #E4D9BD, #AA8246)",
+      WebkitBackgroundClip: "text",
+      WebkitTextFillColor: "transparent",
+      zIndex: 1,
+    }}
+  >
+     in the world of
+
+  </p>
+</div>
+
+
+
+
+
+
+<div className="relative">
+  <p
+    className="absolute top-0 left-0 text-[64px] uppercase font-regular text-[#472B03] blur-[4px] opacity-540 leading-[90px]"
+    style={{
+      fontFamily: "AVON",
+      zIndex: 0,
+    }}
+  >
+  crypto legend!
+  </p>
+  <p
+    className="relative text-[64px] uppercase font-regular leading-[90px]"
+    style={{
+      fontFamily: "AVON",
+      background: "linear-gradient(to bottom, #E4D9BD, #AA8246)",
+      WebkitBackgroundClip: "text",
+      WebkitTextFillColor: "transparent",
+      zIndex: 1,
+    }}
+  >
+  crypto legend!
+  </p>
+</div>
+
+
+
+
+
+
+
+
+
             </div>
           </div>
 
