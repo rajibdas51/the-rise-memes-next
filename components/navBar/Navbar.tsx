@@ -40,18 +40,30 @@ const Navbar: React.FC = () => {
                 <a
                   href="#"
                   className=" pr-[35px]  font-cinzel tracking-[1.3px]  text-[17px] font-regular  leading-[21.57px] text-transparent bg-clip-text bg-gradient-to-b from-[#FFF1DE] to-[#8C6742] hover:text-white "
-                >
+                
+                  style={{
+     
+                    textShadow: '4px  4px 4px #000000 ', 
+                  }}>
                   GAME
                 </a>
                 <a
                   href="#"
-                  className=" pr-[35px] font-cinzel tracking-[1.3px]  text-[17px]  font-normal leading-[21.57px] text-transparent bg-clip-text bg-gradient-to-b from-[#FFF1DE] to-[#8C6742] hover:text-white transition-colors"
+                  className="  pr-[35px] font-cinzel tracking-[1.3px]  text-[17px]  font-normal leading-[21.57px] text-transparent bg-clip-text bg-gradient-to-b from-[#FFF1DE] to-[#8C6742] hover:text-white transition-colors"
+                  style={{
+     
+                    textShadow: '4px  4px 4px #000000 ', 
+                  }}
                 >
                   TOKEN INFO
                 </a>
                 <a
                   href="#"
-                  className=" pr-[35px] font-cinzel tracking-[1.3px]  text-[17px]  font-normal leading-[21.57px] text-transparent bg-clip-text bg-gradient-to-b from-[#FFF1DE] to-[#8C6742] hover:text-white transition-colors"
+                  className="text-stroke-outer pr-[35px] font-cinzel tracking-[1.3px]  text-[17px]  font-normal leading-[21.57px] text-transparent bg-clip-text bg-gradient-to-b from-[#FFF1DE] to-[#8C6742] hover:text-white transition-colors"
+                  style={{
+     
+                    textShadow: '4px  4px 4px #000000 ', 
+                  }}
                 >
                   WHITEPAPER
                 </a>
@@ -85,13 +97,21 @@ const Navbar: React.FC = () => {
                 <a
                   href="#"
                   className="pr-[35px] font-cinzel tracking-[1.3px]  text-[17px]  font-medium leading-[21.57px] text-transparent bg-clip-text bg-gradient-to-b from-[#FFF1DE] to-[#8C6742] hover:text-white transition-colors"
+                  style={{
+     
+                    textShadow: '4px  4px 4px #000000 ', 
+                  }}
                 >
                   AUDIT & KYC
                 </a>
                 <a
                   href="#"
                   className=" pr-[35px] font-cinzel tracking-[1.3px]  text-[17px]   font-medium leading-[21.57px] text-transparent bg-clip-text bg-gradient-to-b from-[#FFF1DE] to-[#8C6742] hover:text-white transition-colors"
-                >
+                  style={{
+     
+                    textShadow: '4px  4px 4px #000000 ', 
+                  }}
+              >
                   FAQ
                 </a>
 
@@ -101,6 +121,10 @@ const Navbar: React.FC = () => {
                   <div
                     className="flex items-center space-x-2 hover:text-white transition-colors cursor-pointer font-cinzel tracking-[1.3px]  text-[17px]   font-regular leading-[21.57px] text-transparent bg-clip-text bg-gradient-to-b from-[#FFF1DE] to-[#8C6742]"
                     onClick={() => setIsOpen(!isOpen)}
+                    style={{
+     
+                      textShadow: '4px  4px 4px #000000 ', 
+                    }}
                   >
                     <FlagIcon
                       code={selectedLang.code}
