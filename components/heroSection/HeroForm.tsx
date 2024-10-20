@@ -15,7 +15,7 @@ const HeroForm = () => {
       style={{
         backgroundImage: `url(${bg.src})`,
         backgroundRepeat: "no-repeat",
-             height: "calc(100vh - 71px)"
+             height: "calc(92vh - 71px)"
       }}
     >
       <div className="flex justify-center px-10">
