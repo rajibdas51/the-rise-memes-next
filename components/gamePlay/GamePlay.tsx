@@ -12,7 +12,7 @@ const GameFeaturesSection = () => {
     <div className="bg-[#130E08] ">
     <div className="relative">
     <h2
-        className="font-cinzel  font-regular leading-[75.57px] text-[56px] text-center  mb-12 drop-shadow-lg pt-12"
+        className="font-cinzel  font-regular leading-[75.57px] text-[60px] text-center  mb-12 drop-shadow-lg pt-12"
         style={{
           // background: "linear-gradient(to bottom, #E4D9BD 0%, #B18D54 88%, #AA8246 100%)",
           background: "linear-gradient(to bottom, #E4D9BD, #AA8246)",
