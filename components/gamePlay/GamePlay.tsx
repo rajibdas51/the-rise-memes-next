@@ -42,7 +42,7 @@ const GameFeaturesSection = () => {
       
     </div>
 
-      <div className="container pt-[50px]">
+      <div className="container pt-[62px]">
         <div className="flex gap-6 justify-center">
           {/* Mobile Image */}
           <div className="w-[600px]">
