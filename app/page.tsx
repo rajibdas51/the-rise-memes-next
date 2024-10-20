@@ -1,7 +1,7 @@
-import GameFeaturesSection from "@/components/Gameplay";
+import GameFeaturesSection from "@/components/gamePlay/GamePlay";
 import HeroSection from "@/components/heroSection/Hero";
 import Navbar from "@/components/navBar/Navbar";
-import Image from "next/image";
+
 
 export default function Home() {
   return (
@@ -10,7 +10,7 @@ export default function Home() {
         <Navbar />
         <HeroSection />
       </div>
-      <div className="">
+      <div className="h-screen">
       <GameFeaturesSection />
       </div>
     </>

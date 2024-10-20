@@ -15,7 +15,7 @@ const HeroSection = () => {
       style={{
         backgroundImage: `url(${heroBg.src})`,
         backgroundRepeat: "no-repeat",
-        height: "calc(100vh - 71px)"
+        height: "calc(100vh - 71px)",
       }}
     >
       <div className="container flex flex-col lg:flex-row items-center justify-between  ">
@@ -29,15 +29,30 @@ const HeroSection = () => {
             {/* <Image src={SecondHead} alt="second heading"   className="pb-5"/>
             <Image src={ThirdHead} alt="second heading" /> */}
 
-
-<div className="relative">
-<p className=" text-[64px]  uppercase bg-gradient-to-b from-[#FFF1DE] to-[#8C6742] text-transparent  bg-clip-text font-regular"  style={{fontFamily:'AVON' , textShadow: "0px  2px 4px rgba(35, 2, 3, 0.5)"}}> Build your empire </p>
-<p className=" text-[64px]  uppercase bg-gradient-to-b from-[#E4D9BD] to-[#AA8246] text-transparent bg-clip-text font-regular mt-[-25px]"  style={{fontFamily:'AVON' ,}}> in the world of </p>
-<p className=" text-[64px]  uppercase bg-gradient-to-b from-[#E4D9BD] to-[#AA8246] text-transparent bg-clip-text font-regular mt-[-25px]"  style={{fontFamily:'AVON'}}> crypto legends</p>
-</div> 
-
-
-
+            {/* textShadow: "0px  2px 4px rgba(35, 2, 3, 0.5)" */}
+            <div className="">
+              <p
+                className=" text-[64px]  uppercase bg-gradient-to-b from-[#E4D9BD] to-[#AA8246] text-transparent  bg-clip-text font-regular"
+                // style={{ fontFamily: "AVON" }}
+              >
+                {" "}
+                Build your empire{" "}
+              </p>
+              <p
+                className=" text-[64px]  uppercase bg-gradient-to-b from-[#E4D9BD] to-[#AA8246] text-transparent bg-clip-text font-regular mt-[-25px]"
+                style={{ fontFamily: "AVON" }}
+              >
+                {" "}
+                in the world of{" "}
+              </p>
+              <p
+                className=" text-[64px]  uppercase bg-gradient-to-b from-[#E4D9BD] to-[#AA8246] text-transparent bg-clip-text font-regular mt-[-25px]"
+                style={{ fontFamily: "AVON" }}
+              >
+                {" "}
+                crypto legends
+              </p>
+            </div>
           </div>
 
           <SocialButton></SocialButton>
