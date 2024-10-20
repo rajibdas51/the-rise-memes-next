@@ -21,15 +21,7 @@ const HeroSection = () => {
       <div className="container flex flex-col lg:flex-row items-center justify-between  ">
         <div className="flex">
           <div className=" mt-[80px]">
-            {/* <Image
-              src={FirstHead}
-              alt="second heading"
-              className="pb-5"
-            /> */}
-            {/* <Image src={SecondHead} alt="second heading"   className="pb-5"/>
-            <Image src={ThirdHead} alt="second heading" /> */}
-
-            {/* textShadow: "0px  2px 4px rgba(35, 2, 3, 0.5)" */}
+ 
             <div className="">
 
 

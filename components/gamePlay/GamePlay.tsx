@@ -9,7 +9,7 @@ import ShowingButton from "./ShowingButton";
 
 const GameFeaturesSection = () => {
   return (
-    <div className="bg-[#130E08] ">
+    <div className="bg-[#130E08] w-[100%]">
     <div className="relative">
     <h2
         className="font-cinzel  font-regular leading-[75.57px] text-[60px] text-center  mb-12 drop-shadow-lg pt-12"
