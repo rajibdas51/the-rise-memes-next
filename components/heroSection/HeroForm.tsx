@@ -11,11 +11,11 @@ import Payment from "./Payment";
 const HeroForm = () => {
   return (
     <div
-      className="bg-cover bg-center "
+      className="bg-cover bg-center h-full"
       style={{
         backgroundImage: `url(${bg.src})`,
         backgroundRepeat: "no-repeat",
-             height: "calc(92vh - 71px)"
+            //  height: "calc(93vh - 68px)"
       }}
     >
       <div className="flex justify-center px-10">

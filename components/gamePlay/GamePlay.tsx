@@ -28,7 +28,7 @@ const GameFeaturesSection = () => {
       </h2>
     <div className="absolute top-0 left-[480px]">
     <h2
-        className="font-cinzel  font-regular leading-[75.57px] text-[56px]   mb-12 drop-shadow-lg pt-12  "
+        className="font-cinzel  font-regular leading-[75.57px] text-[56px]   mb-12 drop-shadow-lg pt-12 "
         style={{
           background: "linear-gradient(to bottom, #E4D9BD, #AA8246)",
           WebkitBackgroundClip: "text",
@@ -45,12 +45,12 @@ const GameFeaturesSection = () => {
       <div className="container pt-[50px]">
         <div className="flex gap-6 justify-center">
           {/* Mobile Image */}
-          <div className="">
+          <div className="w-[600px]">
             <Image
               src={mobileScreen}
               alt="Game Screenshot"
               layout="responsive"
-              className="rounded-3xl"
+              className="rounded-3xl "
             />
 
             {/* App Store Buttons */}
