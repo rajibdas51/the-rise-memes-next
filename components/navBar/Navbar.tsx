@@ -33,7 +33,7 @@ const Navbar: React.FC = () => {
     <nav className="bg-gradient-to-r from-[#8C6742] via-[#8C6742]/50 to-[#8C6742]/30  z-50 pb-[1px]">
       <div className=" bg-[#1A1408] ">
         <div className="container">
-          <div className="flex justify-between items-center  gap-4 h-[70px] w-[100%]">
+          <div className="flex justify-between items-center  gap-4 h-[80px] w-[100%]">
             {/* ..........main part ..... */}
             <div>
               <div className="flex  z-20 items-center justify-between 2xl:ml-[80px] xl:ml-[40px]">
@@ -66,14 +66,14 @@ const Navbar: React.FC = () => {
                   <Image
                     src={union}
                     alt="Rise of union"
-                    className="mt-[63px]  w-[240px] "
+                    className="mt-[74px]  w-[240px] "
                   />
                 </div>
-                <div className=" absolute top-[-30px] left-[37px]">
+                <div className="absolute top-[-42px] left-[29px]">
                   <Image
                     src={logo}
                     alt="Rise of Memes"
-                    className=" z-10 w-[160px] h-[115px]"
+                    className="z-10 w-[170px] h-[115px]"
                   />
                 </div> 
               </div>

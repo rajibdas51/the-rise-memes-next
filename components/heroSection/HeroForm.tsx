@@ -19,7 +19,7 @@ const HeroForm = () => {
       }}
     >
       <div className="flex justify-center px-10">
-        <div className=" pt-[90px] ">
+        <div className=" pt-[80px] ">
           <div className="flex flex-col w-[100%]">
             <h3
               className="font-cinzel text-[30px] leading-[40.44px] text-center px-3 bg-gradient-to-b from-[#FFF1DE] to-[#8C6742] text-transparent bg-clip-text pb-[7px]"
