@@ -66,7 +66,7 @@ const Navbar: React.FC = () => {
                   <Image
                     src={union}
                     alt="Rise of union"
-                    className="mt-[65px]  w-[240px] "
+                    className="mt-[63px]  w-[240px] "
                   />
                 </div>
                 <div className=" absolute top-[-30px] left-[37px]">
