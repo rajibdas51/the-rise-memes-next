@@ -69,7 +69,7 @@ const Navbar: React.FC = () => {
                     className="mt-[74px]  w-[240px] "
                   />
                 </div>
-                <div className="absolute top-[-42px] left-[29px]">
+                <div className="absolute top-[-42px] left-[30px]">
                   <Image
                     src={logo}
                     alt="Rise of Memes"
