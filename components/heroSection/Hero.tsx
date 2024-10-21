@@ -15,16 +15,16 @@ const HeroSection = () => {
       style={{
         backgroundImage: `url(${heroBg.src})`,
         backgroundRepeat: "no-repeat",
-        // height: "calc(100vh - 71px)",
+   
       }}
     >
       <div className="container flex flex-col lg:flex-row items-center justify-between 2xl:px-0 xl:px-4 ">
         <div className="flex">
-          <div className=" mt-[80px]">
+          <div className=" 2xl:mt-[40px] mt-[90px]">
             <div className="">
               <div className="relative">
                 <p
-                  className="absolute top-0 left-0 2xl:text-[64px] text-[50px] uppercase font-regular text-[#472B03] blur-[4px] opacity-540"
+                  className="absolute top-0 left-0 2xl:text-[64px] text-[47px] uppercase font-regular text-[#472B03] blur-[3px] opacity-540"
                   style={{
                     fontFamily: "AVON",
                     zIndex: 0,
@@ -33,7 +33,7 @@ const HeroSection = () => {
                   Build your empire
                 </p>
                 <p
-                  className="relative  uppercase font-regular  2xl:text-[64px] text-[50px]"
+                  className="relative  uppercase font-regular  2xl:text-[64px] text-[47px]"
                   style={{
                     fontFamily: "AVON",
                     background: "linear-gradient(to bottom, #E4D9BD, #AA8246)",
@@ -48,7 +48,7 @@ const HeroSection = () => {
 
               <div className="relative">
                 <p
-                  className="absolute top-0 left-0 2xl:text-[64px] text-[50px] uppercase font-regular text-[#472B03] blur-[4px] opacity-540 leading-[50px]"
+                  className="absolute top-0 left-0 2xl:text-[64px] text-[47px] uppercase font-regular text-[#472B03] blur-[3px] opacity-540 leading-[50px]"
                   style={{
                     fontFamily: "AVON",
                     zIndex: 0,
@@ -57,7 +57,7 @@ const HeroSection = () => {
                   in the world of
                 </p>
                 <p
-                  className="relative 2xl:text-[64px] text-[50px] uppercase font-regular leading-[50px]"
+                  className="relative 2xl:text-[64px] text-[47px] uppercase font-regular leading-[50px]"
                   style={{
                     fontFamily: "AVON",
                     background: "linear-gradient(to bottom, #E4D9BD, #AA8246)",
@@ -72,7 +72,7 @@ const HeroSection = () => {
 
               <div className="relative">
                 <p
-                  className="absolute top-0 left-0 2xl:text-[64px] text-[50px] uppercase font-regular text-[#472B03] blur-[4px] opacity-540 leading-[80px]"
+                  className="absolute top-0 left-0 2xl:text-[64px] text-[47px] uppercase font-regular text-[#472B03] blur-[3px] opacity-540 leading-[80px]"
                   style={{
                     fontFamily: "AVON",
                     zIndex: 0,
@@ -81,7 +81,7 @@ const HeroSection = () => {
                   crypto legend!
                 </p>
                 <p
-                  className="relative 2xl:text-[64px] text-[50px] uppercase font-regular leading-[80px]"
+                  className="relative 2xl:text-[64px] text-[47px] uppercase font-regular leading-[80px]"
                   style={{
                     fontFamily: "AVON",
                     background: "linear-gradient(to bottom, #E4D9BD, #AA8246)",
@@ -102,7 +102,7 @@ const HeroSection = () => {
         <HeroForm></HeroForm>
       </div>
 
-      <HeroBottom></HeroBottom>
+      {/* <HeroBottom></HeroBottom> */}
     </div>
   );
 };

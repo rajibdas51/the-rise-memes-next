@@ -4,7 +4,7 @@ import socialButton1 from "../../assets/images/socialButton1.png";
 import socialButton2 from "../../assets/images/socialButton2.png";
 export default function SocialButton() {
   return (
-    <div   className="mt-[450px] ">
+    <div   className="mt-[450px] ml-[100px]">
    <div className="relative cursor-pointer" >
    <Image
         src={socialButton1}

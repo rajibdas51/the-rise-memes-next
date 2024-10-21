@@ -39,19 +39,21 @@ const Navbar: React.FC = () => {
               <div className="flex  z-20 items-center justify-between 2xl:ml-[80px] xl:ml-[40px]">
                 <a
                   href="#"
-                  className=" 2xl:pr-[35px] pr-[20px]  font-cinzel tracking-[1.3px]  2xl:text-[17px] text-[15px] font-regular  leading-[21.57px] text-transparent bg-clip-text bg-gradient-to-b from-[#FFF1DE] to-[#8C6742] hover:text-white "
+                  className=" 2xl:pr-[40px] pr-[20px]  font-cinzel tracking-[1.3px]  2xl:text-[17px] text-[15px] font-regular  leading-[21.57px] text-transparent bg-clip-text bg-gradient-to-b from-[#FFF1DE] to-[#8C6742] hover:text-white "
                   style={{
                     textShadow: "4px 4px 4px rgba(0, 0, 0, 0.7)",
+                    WebkitTextStroke: ".3px black",                
+                    WebkitTextFillColor: "transparent",   
                   }}
                 >
                   GAME
                 </a>
                 <a
                   href="#"
-                  className=" 2xl:pr-[35px] pr-[20px]  font-cinzel tracking-[1.3px]   2xl:text-[17px] text-[15px]  font-normal leading-[21.57px] text-transparent bg-clip-text bg-gradient-to-b from-[#FFF1DE] to-[#8C6742] hover:text-white transition-colors"
+                  className=" 2xl:pr-[40px] pr-[20px]  font-cinzel tracking-[1.3px]   2xl:text-[17px] text-[15px]  font-normal leading-[21.57px] text-transparent bg-clip-text bg-gradient-to-b from-[#FFF1DE] to-[#8C6742] hover:text-white transition-colors"
                   style={{
                     textShadow: "4px 4px 4px rgba(0, 0, 0, 0.7)",
-                    WebkitTextStroke: ".5px black",                 
+                    WebkitTextStroke: ".3px black",                 
                     WebkitTextFillColor: "transparent",   
                   }}
                 >
@@ -59,10 +61,10 @@ const Navbar: React.FC = () => {
                 </a>
                 <a
                   href="#"
-                  className=" 2xl:pr-[35px] pr-[20px] 2xl:text-[17px] text-[15px]  font-cinzel tracking-[1.3px]   font-normal leading-[21.57px] text-transparent bg-clip-text bg-gradient-to-b from-[#FFF1DE] to-[#8C6742] hover:text-white transition-colors"
+                  className=" 2xl:pr-[40px] pr-[20px] 2xl:text-[17px] text-[15px]  font-cinzel tracking-[1.3px]   font-normal leading-[21.57px] text-transparent bg-clip-text bg-gradient-to-b from-[#FFF1DE] to-[#8C6742] hover:text-white transition-colors"
                   style={{
                     textShadow: "4px 4px 4px rgba(0, 0, 0, 0.7)",
-                    WebkitTextStroke: ".5px black",                
+                    WebkitTextStroke: ".3px black",                
                     WebkitTextFillColor: "transparent",   
                   }}
                 >
@@ -97,18 +99,22 @@ const Navbar: React.FC = () => {
               <div className="flex z-20 items-center ">
                 <a
                   href="#"
-                  className="2xl:pr-[35px] pr-[20px] 2xl:text-[17px] text-[15px] font-cinzel tracking-[1.3px]   font-medium leading-[21.57px] text-transparent bg-clip-text bg-gradient-to-b from-[#FFF1DE] to-[#8C6742] hover:text-white transition-colors"
+                  className="2xl:pr-[40px] pr-[20px] 2xl:text-[17px] text-[15px] font-cinzel tracking-[1.3px]   font-medium leading-[21.57px] text-transparent bg-clip-text bg-gradient-to-b from-[#FFF1DE] to-[#8C6742] hover:text-white transition-colors"
                   style={{
                     textShadow: "4px 4px 4px rgba(0, 0, 0, 0.7)",
+                    WebkitTextStroke: ".3px black",                
+                    WebkitTextFillColor: "transparent",   
                   }}
                 >
                   AUDIT & KYC
                 </a>
                 <a
                   href="#"
-                  className=" 2xl:pr-[35px] pr-[20px] 2xl:text-[17px] text-[15px] font-cinzel tracking-[1.3px]    font-medium leading-[21.57px] text-transparent bg-clip-text bg-gradient-to-b from-[#FFF1DE] to-[#8C6742] hover:text-white transition-colors"
+                  className=" 2xl:pr-[40px] pr-[20px] 2xl:text-[17px] text-[15px] font-cinzel tracking-[1.3px]    font-medium leading-[21.57px] text-transparent bg-clip-text bg-gradient-to-b from-[#FFF1DE] to-[#8C6742] hover:text-white transition-colors"
                   style={{
                     textShadow: "4px 4px 4px rgba(0, 0, 0, 0.7)",
+                    WebkitTextStroke: ".3px black",                
+                    WebkitTextFillColor: "transparent",   
                   }}
                 >
                   FAQ
@@ -122,6 +128,8 @@ const Navbar: React.FC = () => {
                     onClick={() => setIsOpen(!isOpen)}
                     style={{
                       textShadow: "4px 4px 4px rgba(0, 0, 0, 0.7)",
+                      WebkitTextStroke: ".3px black",                
+                      WebkitTextFillColor: "transparent",   
                     }}
                   >
                     <FlagIcon
@@ -169,7 +177,7 @@ const Navbar: React.FC = () => {
                 </div>
                 {/* Buy button*/}
 
-                <div className=" flex items-center  justify-start  cursor-pointer  h-[99px] mt-10 relative mr-[30px]">
+                <div className=" flex items-center  justify-start  cursor-pointer  h-[99px] mt-10 relative mr-[-10px]">
                   <Image
                     src={buyBg}
                     alt="My SVG Image"

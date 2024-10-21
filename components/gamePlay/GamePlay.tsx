@@ -44,9 +44,9 @@ const GameFeaturesSection = () => {
   
 <div className=" pt-[83px] ">
 <div className="container"> 
-        <div className="flex gap-6 2xl:justify-center justify-between 2xl:pl-0 pl-4">
+        <div className="flex gap-12 2xl:justify-center justify-between 2xl:pl-0 pl-4">
           {/* Mobile Image */}
-          <div className="w-[600px]">
+          <div className="w-[640px]">
             <Image
               src={mobileScreen}
               alt="Game Screenshot"
