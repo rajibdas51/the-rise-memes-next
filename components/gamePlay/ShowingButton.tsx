@@ -10,25 +10,28 @@ const ShowingButton = () => {
           <DynamicButton>
             <span
               className="uppercase border  rounded-[4px] text-[18px]  font-regular font-cinzel px-4 py-2"
-              style={{ borderColor: "rgba(48, 40, 34, 0.4)" ,
-                background: "linear-gradient(180deg, #E2DDD8  100%, #E2DDD8 100%)",
+              style={{
+                borderColor: "rgba(48, 40, 34, 0.4)",
+                background:
+                  "linear-gradient(180deg, #E2DDD8  100%, #E2DDD8 100%)",
                 WebkitBackgroundClip: "text",
                 WebkitTextFillColor: "transparent",
-                textShadow: '0  -1px 2px #0D0A08/35', 
+        textShadow: '0 -1px 2px rgba(13, 10, 8, 0.7)'
               }}
-               
             >
               Build and customize your city
             </span>
           </DynamicButton>
           <DynamicButton>
             <span
-              className="uppercase border  rounded-[4px] text-[18px]   font-regular font-cinzel px-4 py-2"
-              style={{ borderColor: "rgba(48, 40, 34, 0.4)" ,
-                background: "linear-gradient(180deg, #E2DDD8  100%, #E2DDD8 100%)",
+              className="uppercase border  rounded-[4px] text-[18px]    font-300 font-cinzel px-4 py-2"
+              style={{
+                borderColor: "rgba(48, 40, 34, 0.4)",
+                background:
+                  "linear-gradient(180deg, #E2DDD8  100%, #E2DDD8 100%)",
                 WebkitBackgroundClip: "text",
                 WebkitTextFillColor: "transparent",
-                textShadow: '0  -1px 2px #0D0A08/35', 
+                textShadow: "0 -1px 2px rgba(13, 10, 8, 0.7)",
               }}
             >
               Gather resources
@@ -36,16 +39,17 @@ const ShowingButton = () => {
           </DynamicButton>
         </div>
 
-        
         <div className="flex  justify-center gap-4 mt-5">
           <DynamicButton>
             <span
               className="uppercase border  rounded-[4px] text-[18px]  font-regular font-cinzel px-4 py-2"
-              style={{ borderColor: "rgba(48, 40, 34, 0.4)" ,
-                background: "linear-gradient(180deg, #E2DDD8  100%, #E2DDD8 100%)",
+              style={{
+                borderColor: "rgba(48, 40, 34, 0.4)",
+                background:
+                  "linear-gradient(180deg, #E2DDD8  100%, #E2DDD8 100%)",
                 WebkitBackgroundClip: "text",
                 WebkitTextFillColor: "transparent",
-                textShadow: '0  -1px 2px #0D0A08/35', 
+                textShadow: "0 -1px 2px rgba(13, 10, 8, 0.7)",
               }}
             >
               Grow economy
@@ -54,11 +58,13 @@ const ShowingButton = () => {
           <DynamicButton>
             <span
               className="uppercase border  rounded-[4px] text-[18px]  font-regular font-cinzel px-4 py-2"
-              style={{ borderColor: "rgba(48, 40, 34, 0.4)" ,
-                background: "linear-gradient(180deg, #E2DDD8  100%, #E2DDD8 100%)",
+              style={{
+                borderColor: "rgba(48, 40, 34, 0.4)",
+                background:
+                  "linear-gradient(180deg, #E2DDD8  100%, #E2DDD8 100%)",
                 WebkitBackgroundClip: "text",
                 WebkitTextFillColor: "transparent",
-                textShadow: '0  -1px 2px #0D0A08/35', 
+                textShadow: "0 -1px 2px rgba(13, 10, 8, 0.7)",
               }}
             >
               Research technology
@@ -69,11 +75,13 @@ const ShowingButton = () => {
           <DynamicButton>
             <span
               className="uppercase border  rounded-[4px] text-[18px]  font-regular font-cinzel px-4 py-2"
-              style={{ borderColor: "rgba(48, 40, 34, 0.4)" ,
-                background: "linear-gradient(180deg, #E2DDD8  100%, #E2DDD8 100%)",
+              style={{
+                borderColor: "rgba(48, 40, 34, 0.4)",
+                background:
+                  "linear-gradient(180deg, #E2DDD8  100%, #E2DDD8 100%)",
                 WebkitBackgroundClip: "text",
                 WebkitTextFillColor: "transparent",
-                textShadow: '0  -1px 2px #0D0A08/35', 
+                textShadow: "0 -1px 2px rgba(13, 10, 8, 0.7)",
               }}
             >
               Explore the Kingdom of Memes lore
@@ -85,11 +93,13 @@ const ShowingButton = () => {
           <DynamicButton>
             <span
               className="uppercase border  rounded-[4px] text-[18px]  font-regular font-cinzel px-4 py-2"
-              style={{ borderColor: "rgba(48, 40, 34, 0.4)" ,
-                background: "linear-gradient(180deg, #E2DDD8  100%, #E2DDD8 100%)",
+              style={{
+                borderColor: "rgba(48, 40, 34, 0.4)",
+                background:
+                  "linear-gradient(180deg, #E2DDD8  100%, #E2DDD8 100%)",
                 WebkitBackgroundClip: "text",
                 WebkitTextFillColor: "transparent",
-                textShadow: '0  -1px 2px #0D0A08/35', 
+                textShadow: "0 -1px 2px rgba(13, 10, 8, 0.7)",
               }}
             >
               Faction storylines
@@ -98,11 +108,13 @@ const ShowingButton = () => {
           <DynamicButton>
             <span
               className="uppercase border  rounded-[4px] text-[18px]  font-regular font-cinzel px-4 py-2"
-              style={{ borderColor: "rgba(48, 40, 34, 0.4)" ,
-                background: "linear-gradient(180deg, #E2DDD8  100%, #E2DDD8 100%)",
+              style={{
+                borderColor: "rgba(48, 40, 34, 0.4)",
+                background:
+                  "linear-gradient(180deg, #E2DDD8  100%, #E2DDD8 100%)",
                 WebkitBackgroundClip: "text",
                 WebkitTextFillColor: "transparent",
-                textShadow: '0  -1px 2px #0D0A08/35', 
+                textShadow: "0 -1px 2px rgba(13, 10, 8, 0.7)",
               }}
             >
               Quests and Missions
@@ -113,11 +125,13 @@ const ShowingButton = () => {
           <DynamicButton>
             <span
               className="uppercase border  rounded-[4px] text-[18px]  font-regular font-cinzel px-4 py-2"
-              style={{ borderColor: "rgba(48, 40, 34, 0.4)" ,
-                background: "linear-gradient(180deg, #E2DDD8  100%, #E2DDD8 100%)",
+              style={{
+                borderColor: "rgba(48, 40, 34, 0.4)",
+                background:
+                  "linear-gradient(180deg, #E2DDD8  100%, #E2DDD8 100%)",
                 WebkitBackgroundClip: "text",
                 WebkitTextFillColor: "transparent",
-                textShadow: '0 -1px 2px #0D0A08/35', 
+                textShadow: "0 -1px 2px rgba(13, 10, 8, 0.7)",
               }}
             >
               Raids and Dungeons
@@ -127,7 +141,6 @@ const ShowingButton = () => {
       </div>
 
       {/* Features end*/}
-   
     </div>
   );
 };
