@@ -4,9 +4,9 @@ import Image from "next/image";
 import gameplayCharacter from "@/assets/images/gameplay-character.png";
 const ShowingButton = () => {
   return (
-    <div className="relative">
-      <div className="z-100">
-        <div className="flex  justify-center gap-4">
+    <div className="">
+      <div className=" ">
+        <div className="flex justify-center  gap-4">
           <DynamicButton>
             <span
               className="uppercase border  rounded-[4px] text-[18px]  font-regular font-cinzel px-4 py-2"
@@ -18,7 +18,7 @@ const ShowingButton = () => {
               }}
                
             >
-              Build and customize your city{" "}
+              Build and customize your city
             </span>
           </DynamicButton>
           <DynamicButton>
@@ -31,10 +31,12 @@ const ShowingButton = () => {
                 textShadow: '0  -1px 2px #0D0A08/35', 
               }}
             >
-              Gather resources{" "}
+              Gather resources
             </span>
           </DynamicButton>
         </div>
+
+        
         <div className="flex  justify-center gap-4 mt-5">
           <DynamicButton>
             <span
@@ -115,7 +117,7 @@ const ShowingButton = () => {
                 background: "linear-gradient(180deg, #E2DDD8  100%, #E2DDD8 100%)",
                 WebkitBackgroundClip: "text",
                 WebkitTextFillColor: "transparent",
-                textShadow: '0  -1px 2px #0D0A08/35', 
+                textShadow: '0 -1px 2px #0D0A08/35', 
               }}
             >
               Raids and Dungeons
@@ -125,11 +127,12 @@ const ShowingButton = () => {
       </div>
 
       {/* Features end*/}
-      <div className="w-[943px]  z-10 flex justify-start">
+      <div className="w-[100%]">
         <Image
           src={gameplayCharacter}
           alt="Image"
-          className="  h-[100%]  w-[943px] mt-[-170px]  ml-[-170px]   "
+          className=" mt-[-100px] 2xl:ml-[-119px] xl:ml-[-122px]" 
+       
         />
       </div>
     </div>
