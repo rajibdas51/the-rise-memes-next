@@ -41,9 +41,10 @@ const GameFeaturesSection = () => {
           </h2>
         </div>
       </div>
-
-      <div className=" pt-[83px] 2xl:pl-0 pl-4">
-        <div className="flex gap-6 justify-center">
+  
+<div className=" pt-[83px] ">
+<div className="container"> 
+        <div className="flex gap-6 2xl:justify-center justify-between 2xl:pl-0 pl-4">
           {/* Mobile Image */}
           <div className="w-[600px]">
             <Image
@@ -69,6 +70,7 @@ const GameFeaturesSection = () => {
           <ShowingButton></ShowingButton> 
         </div>
       </div>
+</div>
     </div>
   );
 };
