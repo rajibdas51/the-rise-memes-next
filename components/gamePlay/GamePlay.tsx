@@ -72,7 +72,7 @@ const GameFeaturesSection = () => {
     
         </div>
 
-        <div className="absolute bottom-0 2xl:right-[200px] right-[0px] ">
+        <div className="absolute bottom-0  3xl:right-[200px]   2xl:right-[50px] right-[0px] ">
         <Image
           src={gameplayCharacter}
           alt="Image"
