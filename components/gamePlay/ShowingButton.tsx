@@ -131,7 +131,7 @@ const ShowingButton = () => {
         <Image
           src={gameplayCharacter}
           alt="Image"
-          className=" mt-[-100px] 2xl:ml-[-119px] xl:ml-[-122px]" 
+          className=" 2xl:[100%] h-[345px]  mt-[-100px] 2xl:ml-[-119px] xl:ml-[-122px]" 
        
         />
       </div>
