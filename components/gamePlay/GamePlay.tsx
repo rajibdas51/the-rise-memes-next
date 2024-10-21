@@ -6,10 +6,10 @@ import GoogleStore from "@/assets/images/googleStore.png";
 import AppleStore from "@/assets/images/appleStore.png";
 import mobileScreen from "@/assets/images/mobileScreen.png";
 import ShowingButton from "./ShowingButton";
-
+import gameplayCharacter from "@/assets/images/gameplay-character.png";
 const GameFeaturesSection = () => {
   return (
-    <div className="bg-[#130E08] w-[100%] h-full">
+    <div className="bg-[#130E08] w-[100%] h-full relative ">
       <div className="relative">
         <h2
           className="font-cinzel  font-regular leading-[75.57px] text-[60px] text-center  mb-12 drop-shadow-lg pt-16"
@@ -68,7 +68,18 @@ const GameFeaturesSection = () => {
 
           {/* Features */}
           <ShowingButton></ShowingButton> 
+
+    
         </div>
+
+        <div className="absolute bottom-0 2xl:right-[200px] right-[0px] ">
+        <Image
+          src={gameplayCharacter}
+          alt="Image"
+          className="  2xl:mt-[-100px] mt-[-100px] 2xl:ml-[-119px] xl:ml-[-0px]" 
+       
+        />
+      </div>
       </div>
 </div>
     </div>

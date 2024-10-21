@@ -1,10 +1,10 @@
 import React from "react";
 import DynamicButton from "./DynamicButton";
 import Image from "next/image";
-import gameplayCharacter from "@/assets/images/gameplay-character.png";
+
 const ShowingButton = () => {
   return (
-    <div className="">
+    <div className=" z-20 ">
       <div className="2xl:pr-0 pr-4">
         <div className="flex justify-center  gap-4">
           <DynamicButton>
@@ -127,14 +127,7 @@ const ShowingButton = () => {
       </div>
 
       {/* Features end*/}
-      <div className="">
-        <Image
-          src={gameplayCharacter}
-          alt="Image"
-          className="  w-[100%] 2xl:mt-[-100px] mt-[-100px] 2xl:ml-[-119px] xl:ml-[-0px]" 
-       
-        />
-      </div>
+   
     </div>
   );
 };

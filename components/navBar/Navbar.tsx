@@ -40,29 +40,26 @@ const Navbar: React.FC = () => {
                 <a
                   href="#"
                   className=" 2xl:pr-[35px] pr-[20px]  font-cinzel tracking-[1.3px]  2xl:text-[17px] text-[15px] font-regular  leading-[21.57px] text-transparent bg-clip-text bg-gradient-to-b from-[#FFF1DE] to-[#8C6742] hover:text-white "
-                
                   style={{
-     
-                    textShadow: '4px  4px 4px #000000 ', 
-                  }}>
+                    textShadow: "4px 4px 4px rgba(0, 0, 0, 0.7)",
+                  }}
+                >
                   GAME
                 </a>
                 <a
                   href="#"
                   className=" 2xl:pr-[35px] pr-[20px]  font-cinzel tracking-[1.3px]   2xl:text-[17px] text-[15px]  font-normal leading-[21.57px] text-transparent bg-clip-text bg-gradient-to-b from-[#FFF1DE] to-[#8C6742] hover:text-white transition-colors"
                   style={{
-     
-                    textShadow: '4px  4px 4px #000000 ', 
+                    textShadow: "4px 4px 4px rgba(0, 0, 0, 0.7)",
                   }}
                 >
                   TOKEN INFO
                 </a>
                 <a
                   href="#"
-                  className="text-stroke-outer 2xl:pr-[35px] pr-[20px] 2xl:text-[17px] text-[15px]  font-cinzel tracking-[1.3px]   font-normal leading-[21.57px] text-transparent bg-clip-text bg-gradient-to-b from-[#FFF1DE] to-[#8C6742] hover:text-white transition-colors"
+                  className=" 2xl:pr-[35px] pr-[20px] 2xl:text-[17px] text-[15px]  font-cinzel tracking-[1.3px]   font-normal leading-[21.57px] text-transparent bg-clip-text bg-gradient-to-b from-[#FFF1DE] to-[#8C6742] hover:text-white transition-colors"
                   style={{
-     
-                    textShadow: '4px  4px 4px #000000 ', 
+                    textShadow: "4px 4px 4px rgba(0, 0, 0, 0.7)",
                   }}
                 >
                   WHITEPAPER
@@ -87,7 +84,7 @@ const Navbar: React.FC = () => {
                     alt="Rise of Memes"
                     className="z-10 w-[170px] h-[115px]"
                   />
-                </div> 
+                </div>
               </div>
             </div>
             {/* ....................logo part .................. */}
@@ -98,8 +95,7 @@ const Navbar: React.FC = () => {
                   href="#"
                   className="2xl:pr-[35px] pr-[20px] 2xl:text-[17px] text-[15px] font-cinzel tracking-[1.3px]   font-medium leading-[21.57px] text-transparent bg-clip-text bg-gradient-to-b from-[#FFF1DE] to-[#8C6742] hover:text-white transition-colors"
                   style={{
-     
-                    textShadow: '4px  4px 4px #000000 ', 
+                    textShadow: "4px 4px 4px rgba(0, 0, 0, 0.7)",
                   }}
                 >
                   AUDIT & KYC
@@ -108,10 +104,9 @@ const Navbar: React.FC = () => {
                   href="#"
                   className=" 2xl:pr-[35px] pr-[20px] 2xl:text-[17px] text-[15px] font-cinzel tracking-[1.3px]    font-medium leading-[21.57px] text-transparent bg-clip-text bg-gradient-to-b from-[#FFF1DE] to-[#8C6742] hover:text-white transition-colors"
                   style={{
-     
-                    textShadow: '4px  4px 4px #000000 ', 
+                    textShadow: "4px 4px 4px rgba(0, 0, 0, 0.7)",
                   }}
-              >
+                >
                   FAQ
                 </a>
 
@@ -122,8 +117,7 @@ const Navbar: React.FC = () => {
                     className="flex items-center space-x-2 hover:text-white transition-colors cursor-pointer font-cinzel tracking-[1.3px]  2xl:text-[17px] text-[15px]  font-regular leading-[21.57px] text-transparent bg-clip-text bg-gradient-to-b from-[#FFF1DE] to-[#8C6742]"
                     onClick={() => setIsOpen(!isOpen)}
                     style={{
-     
-                      textShadow: '4px  4px 4px #000000 ', 
+                      textShadow: "4px 4px 4px rgba(0, 0, 0, 0.7)",
                     }}
                   >
                     <FlagIcon
