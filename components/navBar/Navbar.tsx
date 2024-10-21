@@ -51,6 +51,8 @@ const Navbar: React.FC = () => {
                   className=" 2xl:pr-[35px] pr-[20px]  font-cinzel tracking-[1.3px]   2xl:text-[17px] text-[15px]  font-normal leading-[21.57px] text-transparent bg-clip-text bg-gradient-to-b from-[#FFF1DE] to-[#8C6742] hover:text-white transition-colors"
                   style={{
                     textShadow: "4px 4px 4px rgba(0, 0, 0, 0.7)",
+                    WebkitTextStroke: ".5px black",                 
+                    WebkitTextFillColor: "transparent",   
                   }}
                 >
                   TOKEN INFO
@@ -60,6 +62,8 @@ const Navbar: React.FC = () => {
                   className=" 2xl:pr-[35px] pr-[20px] 2xl:text-[17px] text-[15px]  font-cinzel tracking-[1.3px]   font-normal leading-[21.57px] text-transparent bg-clip-text bg-gradient-to-b from-[#FFF1DE] to-[#8C6742] hover:text-white transition-colors"
                   style={{
                     textShadow: "4px 4px 4px rgba(0, 0, 0, 0.7)",
+                    WebkitTextStroke: ".5px black",                
+                    WebkitTextFillColor: "transparent",   
                   }}
                 >
                   WHITEPAPER
