@@ -68,7 +68,7 @@ const GameFeaturesSection = () => {
           </div>
 
           {/* Features */}
-          <ShowingButton></ShowingButton>
+          {/* <ShowingButton></ShowingButton> */}
         </div>
       </div>
     </div>

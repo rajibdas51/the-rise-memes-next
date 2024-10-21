@@ -39,7 +39,7 @@ const Navbar: React.FC = () => {
               <div className="flex  z-20 items-center justify-between 2xl:ml-[80px] xl:ml-[40px]">
                 <a
                   href="#"
-                  className=" pr-[35px]  font-cinzel tracking-[1.3px]  text-[17px] font-regular  leading-[21.57px] text-transparent bg-clip-text bg-gradient-to-b from-[#FFF1DE] to-[#8C6742] hover:text-white "
+                  className=" 2xl:pr-[35px] pr-[20px]  font-cinzel tracking-[1.3px]  2xl:text-[17px] text-[15px] font-regular  leading-[21.57px] text-transparent bg-clip-text bg-gradient-to-b from-[#FFF1DE] to-[#8C6742] hover:text-white "
                 
                   style={{
      
@@ -49,7 +49,7 @@ const Navbar: React.FC = () => {
                 </a>
                 <a
                   href="#"
-                  className="  pr-[35px] font-cinzel tracking-[1.3px]  text-[17px]  font-normal leading-[21.57px] text-transparent bg-clip-text bg-gradient-to-b from-[#FFF1DE] to-[#8C6742] hover:text-white transition-colors"
+                  className=" 2xl:pr-[35px] pr-[20px]  font-cinzel tracking-[1.3px]   2xl:text-[17px] text-[15px]  font-normal leading-[21.57px] text-transparent bg-clip-text bg-gradient-to-b from-[#FFF1DE] to-[#8C6742] hover:text-white transition-colors"
                   style={{
      
                     textShadow: '4px  4px 4px #000000 ', 
@@ -59,7 +59,7 @@ const Navbar: React.FC = () => {
                 </a>
                 <a
                   href="#"
-                  className="text-stroke-outer pr-[35px] font-cinzel tracking-[1.3px]  text-[17px]  font-normal leading-[21.57px] text-transparent bg-clip-text bg-gradient-to-b from-[#FFF1DE] to-[#8C6742] hover:text-white transition-colors"
+                  className="text-stroke-outer 2xl:pr-[35px] pr-[20px] 2xl:text-[17px] text-[15px]  font-cinzel tracking-[1.3px]   font-normal leading-[21.57px] text-transparent bg-clip-text bg-gradient-to-b from-[#FFF1DE] to-[#8C6742] hover:text-white transition-colors"
                   style={{
      
                     textShadow: '4px  4px 4px #000000 ', 
@@ -96,7 +96,7 @@ const Navbar: React.FC = () => {
               <div className="flex z-20 items-center ">
                 <a
                   href="#"
-                  className="pr-[35px] font-cinzel tracking-[1.3px]  text-[17px]  font-medium leading-[21.57px] text-transparent bg-clip-text bg-gradient-to-b from-[#FFF1DE] to-[#8C6742] hover:text-white transition-colors"
+                  className="2xl:pr-[35px] pr-[20px] 2xl:text-[17px] text-[15px] font-cinzel tracking-[1.3px]   font-medium leading-[21.57px] text-transparent bg-clip-text bg-gradient-to-b from-[#FFF1DE] to-[#8C6742] hover:text-white transition-colors"
                   style={{
      
                     textShadow: '4px  4px 4px #000000 ', 
@@ -106,7 +106,7 @@ const Navbar: React.FC = () => {
                 </a>
                 <a
                   href="#"
-                  className=" pr-[35px] font-cinzel tracking-[1.3px]  text-[17px]   font-medium leading-[21.57px] text-transparent bg-clip-text bg-gradient-to-b from-[#FFF1DE] to-[#8C6742] hover:text-white transition-colors"
+                  className=" 2xl:pr-[35px] pr-[20px] 2xl:text-[17px] text-[15px] font-cinzel tracking-[1.3px]    font-medium leading-[21.57px] text-transparent bg-clip-text bg-gradient-to-b from-[#FFF1DE] to-[#8C6742] hover:text-white transition-colors"
                   style={{
      
                     textShadow: '4px  4px 4px #000000 ', 
@@ -119,7 +119,7 @@ const Navbar: React.FC = () => {
 
                 <div className="relative">
                   <div
-                    className="flex items-center space-x-2 hover:text-white transition-colors cursor-pointer font-cinzel tracking-[1.3px]  text-[17px]   font-regular leading-[21.57px] text-transparent bg-clip-text bg-gradient-to-b from-[#FFF1DE] to-[#8C6742]"
+                    className="flex items-center space-x-2 hover:text-white transition-colors cursor-pointer font-cinzel tracking-[1.3px]  2xl:text-[17px] text-[15px]  font-regular leading-[21.57px] text-transparent bg-clip-text bg-gradient-to-b from-[#FFF1DE] to-[#8C6742]"
                     onClick={() => setIsOpen(!isOpen)}
                     style={{
      
