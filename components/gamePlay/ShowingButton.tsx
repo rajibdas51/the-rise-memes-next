@@ -16,7 +16,7 @@ const ShowingButton = () => {
                   "linear-gradient(180deg, #E2DDD8  100%, #E2DDD8 100%)",
                 WebkitBackgroundClip: "text",
                 WebkitTextFillColor: "transparent",
-        textShadow: '0 -1px 2px rgba(13, 10, 8, 0.7)'
+                 textShadow: '0 -1px 2px rgba(13, 10, 8, 0.7)'
               }}
             >
               Build and customize your city
