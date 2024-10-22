@@ -34,7 +34,7 @@ body {
   color: var(--foreground);
   background: var(--background);
   /* font-family: Arial, cinzel, sans-serif; */
-  font-family: 'AVON';
+  font-family: 'AVON', Arial, sans-serif;
   background:#fff,
 }
 
