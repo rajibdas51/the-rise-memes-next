@@ -15,7 +15,6 @@ const HeroSection = () => {
       style={{
         backgroundImage: `url(${heroBg.src})`,
         backgroundRepeat: "no-repeat",
-   
       }}
     >
       <div className="container flex flex-col lg:flex-row items-center justify-between 2xl:px-0 xl:px-4 ">
@@ -40,6 +39,8 @@ const HeroSection = () => {
                     WebkitBackgroundClip: "text",
                     WebkitTextFillColor: "transparent",
                     zIndex: 1,
+                    WebkitFontSmoothing: "antialiased",
+                    MozOsxFontSmoothing: "grayscale",
                   }}
                 >
                   Build your empire
@@ -64,6 +65,8 @@ const HeroSection = () => {
                     WebkitBackgroundClip: "text",
                     WebkitTextFillColor: "transparent",
                     zIndex: 1,
+                    WebkitFontSmoothing: "antialiased",
+                    MozOsxFontSmoothing: "grayscale",
                   }}
                 >
                   in the world of
@@ -88,6 +91,8 @@ const HeroSection = () => {
                     WebkitBackgroundClip: "text",
                     WebkitTextFillColor: "transparent",
                     zIndex: 1,
+                    WebkitFontSmoothing: "antialiased",
+                    MozOsxFontSmoothing: "grayscale",
                   }}
                 >
                   crypto legend!
