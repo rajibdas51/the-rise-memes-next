@@ -6,7 +6,6 @@
 
 
 
-
 :root {
   --background: #fff;
   --foreground: #171717;
@@ -34,7 +33,7 @@ body {
   color: var(--foreground);
   background: var(--background);
   /* font-family: Arial, cinzel, sans-serif; */
-  font-family: 'AVON', Arial, sans-serif;
+  font-family: 'AVON';
   background:#fff,
 }
 
