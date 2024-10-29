@@ -21,9 +21,10 @@
 @font-face {
   font-family: 'AVON';
   src: local('AVON Stamp'), local('AVON-Stamp'),
-       url('/fonts/AVONStamp.woff2') format('woff2'),
-       url('/fonts/AVONStamp.woff') format('woff'),
-       url('/fonts/AVONStamp.ttf') format('truetype');
+  url('/fonts/AVONStamp.woff2') format('woff2'),
+  url('/fonts/AVONStamp.woff') format('woff'),
+  url('/fonts/AVONStamp.ttf') format('truetype'),
+  url('/fonts/AVONStamp.eot') format('embedded-opentype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
