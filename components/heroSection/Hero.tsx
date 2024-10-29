@@ -1,9 +1,6 @@
 "use client";
 import React from "react";
-// import Image from "next/image";
-// import FirstHead from "@/assets/images/first-head.svg";
-// import SecondHead from "@/assets/images/second-head.svg";
-// import ThirdHead from "@/assets/images/last-head.svg";
+
 import heroBg from "../../assets/images/hero-bg.png";
 import HeroForm from "./HeroForm";
 
